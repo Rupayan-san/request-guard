@@ -1,6 +1,6 @@
 {
   "name": "@rupayan-das/request-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis-based rate limiting and semantic caching for Node.js applications",
   "type": "module",
   "main": "./dist/index.js",
