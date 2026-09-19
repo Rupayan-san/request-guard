@@ -21,7 +21,7 @@ npm install @rupayan-das/request-guard redis
 
 Make sure Redis is running and accessible from your application.
 
-Semantic caching requires Redis with vector search support.
+Semantic caching requires Redis with vector search support, such as Redis Stack.
 
 ## Rate Limiting
 
@@ -136,6 +136,8 @@ interface EmbeddingProvider {
 }
 ```
 
+> **Note:** The embedding provider must return vectors with the same dimensionality configured in the Redis vector index.
+
 ### LLM Provider
 
 ```ts
@@ -229,4 +231,10 @@ Make sure your Redis instance is accessible from your Node.js application.
 
 ## License
 
-ISC
+MIT
+
+## Repository
+
+Source code and issue tracking:
+
+https://github.com/Rupayan-san/request-guard
