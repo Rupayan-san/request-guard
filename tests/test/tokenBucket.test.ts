@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { TokenBucket } from '../algorithms/tokenBucket.algo.js';
+import { TokenBucket } from '../../src/rate_limiter/algorithms/tokenBucket.algo.js';
 import { client } from './setup.js';
 
 
